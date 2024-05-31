@@ -5,7 +5,7 @@ import 'package:http/http.dart';
 import 'package:tap2024/models/popular_model.dart';
 
 class ApiPopular {
-  Uri uri = Uri.parse('https://api.themoviedb.org/3/movie/popular?api_key=5019e68de7bc112f4e4337a500b96c56&language=es-MX&page=1');
+  Uri uri = Uri.parse('https://api.themoviedb.org/3/movie/popular?api_key=&language=es-MX&page=1');
 
   Future<List<PopularModel>?> getAllPopular() async {
 
